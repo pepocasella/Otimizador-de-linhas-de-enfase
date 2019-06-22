@@ -1,0 +1,77 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2\Main_Projetct\SetupMquinas.prj" location="C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2\Main_Projetct" name="SetupMquinas" target="target.mlapps" target-name="Package App">
+    <param.appname>SetupMquinas</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\PEDROC~1.000\AppData\Local\Temp\tp95f34419_47c1_4721_8940_7302b9bdd897.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2\Main_Projetct</param.output>
+    <param.guid>c4e5d7d2-a4da-4fa1-b8b0-123e9b2782f5</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DialogBox_SETUPMAQUINAS.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2" name="Main_Projetct" optional="false">C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2\Main_Projetct</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

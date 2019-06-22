@@ -1,0 +1,139 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2\Main_Projetct\Main_Window.prj" location="C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2\Main_Projetct" name="Main_Window" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Otimizador</param.appname>
+    <param.icon>${PROJECT_ROOT}\Main_Window_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Main_Window_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Main_Window_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\Main_Window_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Main_Window_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>G. Vaz, P. Casella, P. Sambi, R. Benini</param.authnamewatermark>
+    <param.email />
+    <param.company>Insper</param.company>
+    <param.summary>Otimizador de linhas de envase</param.summary>
+    <param.description>A calculadora de ponto ótimo é um software desenvolvido pelo grupo em
+MatLab que, quando alimentada com valores reais de MTTR e MTBF, retorna ao
+usuário as velocidades e sobrevelocidades ideias para balancear a linha de envase. Ou
+seja, a calculadora devolve valores que aumentam a eficiência da linha, permitindo
+que ela trabalhe de maneira mais fluida e, ao mesmo tempo, faz isso retornando os
+valores de velocidade mais baixos para cumprir esta função. Desta maneira, para uma
+máxima eficiência a calculadora aponta as velocidades com o menor custo de
+produção possíveis.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\foto_planta.PNG</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Insper\Otimizador\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Main_Window\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Main_Window\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Main_Window\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Main_Window</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.version />
+      <param.email />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Main_App.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\200ml.png</file>
+      <file>${PROJECT_ROOT}\600ml.png</file>
+      <file>${PROJECT_ROOT}\Coca-Cola_Femsa_Logo.png</file>
+      <file>${PROJECT_ROOT}\DialogBox_AJUDA.mlapp</file>
+      <file>${PROJECT_ROOT}\DialogBox_PULMOES.mlapp</file>
+      <file>${PROJECT_ROOT}\DialogBox_RELATORIO.mlapp</file>
+      <file>${PROJECT_ROOT}\DialogBox_SETUPMAQUINAS.mlapp</file>
+      <file>${PROJECT_ROOT}\DialogBox_SKU.mlapp</file>
+      <file>${PROJECT_ROOT}\foto_A_pulmao2.PNG</file>
+      <file>${PROJECT_ROOT}\foto_planta.PNG</file>
+      <file>${PROJECT_ROOT}\insper_logo.png</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Main_Window\for_testing" name="Otimizador.exe" optional="false">C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2\Main_Projetct\Main_Window\for_testing\Otimizador.exe</file>
+      <file location="${PROJECT_ROOT}\Main_Window\for_testing" name="splash.png" optional="false">C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2\Main_Projetct\Main_Window\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\Main_Window\for_testing" name="readme.txt" optional="true">C:\Users\Pedro Casella.DESKTOP-T4HRM18.000\Desktop\Insper\Engenharia Mecatronica\9° Semestre\PFE2\Main_Projetct\Main_Window\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
