@@ -1,0 +1,3 @@
+# Otimizador-de-linhas-de-enfase
+ A calculadora de ponto ótimo é um software desenvolvido pelo grupo em MatLab  que, quando alimentada com valores reais de MTTR e MTBF, retorna ao usuário as  velocidades e sobrevelocidades ideias para balancear a linha de envase. Ou seja, a  calculadora devolve valores que aumentam a eficiência da linha, permitindo que ela  trabalhe de maneira mais fluida e, ao mesmo tempo, faz isso retornando os valores  de velocidade mais baixos para cumprir esta função. Desta maneira, para uma  máxima eficiência a calculadora aponta as velocidades com o menor custo de  produção possíveis. 
+![fotos_main_window_dialogboxes](https://user-images.githubusercontent.com/11545292/60849579-ceb15900-a1c1-11e9-8847-f0f66c6cf515.jpg)
